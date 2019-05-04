@@ -10,4 +10,8 @@ What questions (from above) can be answered using the data in this dataset?
 2. Popular words in songs
 URL: https://labrosa.ee.columbia.edu/millionsong/musixmatch
 
-3. 
+3. Soundcloud Popular Artists
+URL: https://developers.soundcloud.com/docs/api/guide
+
+no data file for this, api calls can be used to retrieve
+the data
