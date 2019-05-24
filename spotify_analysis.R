@@ -24,7 +24,8 @@ top_100_year <- top_songs_by_month %>%
   group_by(year) %>% 
   top_n(., 50, score) %>% 
   ungroup(year) %>% 
-  select(year, artist, song)
+  select(year, artist, song) %>%
+  distinct()
 
 URI <- "https://api.spotify.com/v1"
 endpoint <- "/search"
@@ -57,11 +58,12 @@ searchify <- function(song) {
   search_spotify(song, "track", limit = 1)
 }
 
-apply(top_100_year$song, 1, searchify)
+test <- lapply(top_100_year$song, searchify)
 
-top_100_year <- top_100_year$song %>% 
-  mutate(id = searchify(song))
+top_100_year$data <- test
 
+top_100_year <- top_100_year %>% 
+  mutate(id = data$id)
 
 #get_my_top_artists_or_tracks(type = 'artists', time_range = 'short_term', limit = 5) %>% 
  # select(name, genres) %>% 
