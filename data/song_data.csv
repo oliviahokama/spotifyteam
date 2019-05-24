@@ -1,0 +1,494 @@
+"","year","song","artist","speechiness","energy","danceability","acousticness"
+"1","2000","Smooth","Rob Thomas & Santana",0.06,0.964,0.647,0.00434
+"2","2000","I Knew I Loved You","Savage Garden",0.0287,0.517,0.556,0.307
+"3","2000","What A Girl Wants","Christina Aguilera",0.112,0.819,0.754,0.0684
+"4","2000","Back At One","Brian McKnight",0.0307,0.357,0.649,0.542
+"5","2000","Amazed","Lonestar",0.0319,0.553,0.557,0.247
+"6","2000","Bye, Bye, Bye","N Sync",0.0479,0.926,0.61,0.031
+"7","2000","Maria Maria","Santana & The Product G",0.0365,0.842,0.673,0.06
+"8","2000","Show Me The Meaning Of Being Lonely","The Backstreet Boys",0.0252,0.625,0.63,0.231
+"9","2000","Say My Name","Destiny's Child",0.102,0.678,0.713,0.273
+"10","2000","Breathe","Faith Hill",0.163,0.741,0.642,0.187
+"11","2000","He Wasn't Man Enough","Toni Braxton",0.0412,0.947,0.739,0.00947
+"12","2000","Thong Song","Sisqo",0.0614,0.885,0.701,0.132
+"13","2000","Oops!... I Did It Again","Britney Spears",0.0437,0.834,0.751,0.3
+"14","2000","Be With You","Enrique Iglesias",0.0355,0.873,0.49,0.107
+"15","2000","Try Again","Aaliyah",0.0371,0.352,0.435,0.814
+"16","2000","The Real Slim Shady","Eminem",0.061,0.665,0.95,0.0339
+"17","2000","Everything You Want","Vertical Horizon",0.0305,0.759,0.637,0.0504
+"18","2000","It's Gonna Be Me","N Sync",0.071,0.873,0.636,0.0407
+"19","2000","Jumpin' Jumpin'","Destiny's Child",0.0567,0.685,0.771,0.00543
+"20","2000","Bent","Matchbox Twenty",0.0414,0.711,0.726,0.213
+"21","2000","Incomplete","Sisqo",0.0759,0.446,0.75,0.282
+"22","2000","Doesn't Really Matter","Janet Jackson",0.0825,0.8,0.773,0.0791
+"23","2000","Music","Madonna",0.105,0.687,0.523,0.0215
+"24","2000","Come On Over Baby (All I Want Is You)","Christina Aguilera",0.106,0.915,0.829,0.226
+"25","2000","Give Me Just One Night","98 Degrees",0.0491,0.79,0.543,0.0513
+"26","2000","Most Girls","Pink",0.0775,0.588,0.76,0.0485
+"27","2000","Independent Woman","Destiny's Child",0.944,0.704,0.571,0.914
+"28","2000","With Arms Wide Open","Creed",0.0302,0.539,0.41,0.00425
+"29","2000","Case Of The Ex (Whatcha Gonna Do)","Mya",0.0445,0.69,0.78,0.0565
+"30","2001","Independent Woman","Destiny's Child",0.944,0.704,0.571,0.914
+"31","2001","It Wasn't Me","Shaggy & Ricardo 'RikRok' Ducent",0.0642,0.604,0.852,0.0503
+"32","2001","He Loves U Not","Dream",0.269,0.489,0.76,0.274
+"33","2001","Love Don't Cost A Thing","Jennifer Lopez",0.0707,0.842,0.786,0.00305
+"34","2001","Ms Jackson","OutKast",0.269,0.805,0.843,0.142
+"35","2001","Stutter","Joe Thomas & Mystikal",0.0361,0.848,0.606,0.214
+"36","2001","Butterfly","Crazy Town",0.05,0.628,0.763,0.0531
+"37","2001","Angel","Shaggy",0.511,0.374,0.712,0.795
+"38","2001","All For You","Janet Jackson",0.0376,0.756,0.631,0.0399
+"39","2001","Survivor","Destiny's Child",0.409,0.468,0.638,0.191
+"40","2001","Ride Wit Me","Nelly & City Spud",0.0478,0.7,0.85,0.0616
+"41","2001","Hanging By A Moment","Lifehouse",0.0352,0.855,0.531,0.000983
+"42","2001","U Remind Me","Usher",0.0782,0.629,0.657,0.194
+"43","2001","Bootylicious","Destiny's Child",0.284,0.833,0.835,0.00247
+"44","2001","Let Me Blow Ya Mind","Eve & Gwen Stefani",0.116,0.539,0.909,0.243
+"45","2001","All Or Nothing","O-Town",0.0311,0.693,0.663,0.0149
+"46","2001","Hit 'em Up Style (Oops!)","Blu Cantrell",0.0466,0.774,0.7,0.2
+"47","2001","I'm Real","Jennifer Lopez & Ja Rule",0.151,0.587,0.708,0.273
+"48","2001","Fallin'","Alicia Keys",0.0252,0.449,0.63,0.219
+"49","2001","Someone To Call My Lover","Janet Jackson",0.041,0.914,0.729,0.135
+"50","2001","Family Affair","Mary J Blige",0.0436,0.56,0.925,0.138
+"51","2001","Where The Party At","Jagged Edge & Nelly",0.226,0.661,0.596,0.31
+"52","2001","Hero","Enrique Iglesias",0.0995,0.967,0.533,0.00791
+"53","2001","U Got It Bad","Usher",0.03,0.5,0.816,0.0227
+"54","2001","How You Remind Me","Nickelback",0.033,0.764,0.446,0.00135
+"55","2002","How You Remind Me","Nickelback",0.033,0.764,0.446,0.00135
+"56","2002","U Got It Bad","Usher",0.03,0.5,0.816,0.0227
+"57","2002","Family Affair","Mary J Blige",0.0436,0.56,0.925,0.138
+"58","2002","Get The Party Started","Pink",0.0475,0.902,0.806,0.00127
+"59","2002","Hero","Enrique Iglesias",0.0995,0.967,0.533,0.00791
+"60","2002","Always On Time","Ja Rule & Ashanti",0.278,0.714,0.607,0.205
+"61","2002","Ain't It Funny","Jennifer Lopez & Ja Rule",0.17,0.746,0.781,0.364
+"62","2002","In The End","Linkin Park",0.0498,0.853,0.542,0.0103
+"63","2002","What About Us","Brandy",0.0507,0.588,0.489,0.0285
+"64","2002","What's Luv?","Fat Joe & Ashanti",0.0598,0.707,0.835,0.0219
+"65","2002","Foolish","Ashanti",0.0831,0.728,0.477,0.358
+"66","2002","I Need A Girl","P Diddy, Usher & Loon",0.0578,0.785,0.602,0.245
+"67","2002","Without Me","Eminem",0.0705,0.488,0.752,0.297
+"68","2002","Hot In Herre","Nelly",0.144,0.736,0.965,0.218
+"69","2002","Hero","Chad Kroeger & Josey Scott",0.0995,0.967,0.533,0.00791
+"70","2002","Complicated","Avril Lavigne",0.0459,0.776,0.585,0.0572
+"71","2002","Dilemma","Nelly & Kelly Rowland",0.167,0.534,0.725,0.211
+"72","2002","Gangsta Lovin'","Eve & Alicia Keys",0.0604,0.826,0.728,0.0783
+"73","2002","Cleanin' Out My Closet","Eminem",0.219,0.743,0.911,0.0835
+"74","2002","A Moment Like This","Kelly Clarkson",0.0311,0.572,0.414,0.163
+"75","2002","Lose Yourself","Eminem",0.266,0.732,0.698,0.00704
+"76","2002","Work It","Missy 'Misdemeanor' Elliott",0.0802,0.722,0.85,0.255
+"77","2002","Die Another Day","Madonna",0.0901,0.797,0.792,0.062
+"78","2002","Jenny From The Block","Jennifer Lopez",0.207,0.754,0.844,0.00833
+"79","2003","Lose Yourself","Eminem",0.266,0.732,0.698,0.00704
+"80","2003","Jenny From The Block","Jennifer Lopez",0.207,0.754,0.844,0.00833
+"81","2003","Work It","Missy 'Misdemeanor' Elliott",0.0802,0.722,0.85,0.255
+"82","2003","'03 Bonnie & Clyde","Jay-Z & Beyonce",0.0764,0.599,0.854,0.17
+"83","2003","All I Have","Jennifer Lopez & LL Cool J",0.0651,0.828,0.668,0.00482
+"84","2003","Cry Me A River","Justin Timberlake",0.176,0.653,0.624,0.575
+"85","2003","In Da Club","50 Cent",0.373,0.73,0.865,0.283
+"86","2003","Beautiful","Christina Aguilera & Beverly McClellan",0.0262,0.402,0.552,0.676
+"87","2003","Mesmerize","Ja Rule & Ashanti",0.209,0.641,0.762,0.0554
+"88","2003","Ignition","R Kelly",0.0423,0.523,0.795,0.061
+"89","2003","Get Busy","Sean Paul",0.036,0.824,0.735,0.615
+"90","2003","I Know What You Want","Busta Rhymes & Mariah Carey",0.306,0.759,0.648,0.0142
+"91","2003","21 Questions","50 Cent & Nate Dogg",0.36,0.807,0.547,0.388
+"92","2003","Bring Me To Life","Evanescence & Paul McCoy",0.124,0.945,0.316,0.00895
+"93","2003","Crazy In Love","Beyonce & Jay-Z",0.226,0.77,0.646,0.00249
+"94","2003","Rock Wit U (Awww Baby)","Ashanti",0.0739,0.805,0.712,0.433
+"95","2003","Magic Stick","Lil' Kim & 50 Cent",0.271,0.499,0.849,0.117
+"96","2003","Right Thurr","Chingy",0.253,0.749,0.866,0.15
+"97","2003","Shake Ya Tailfeather","Nelly, P Diddy & Murphy Lee",0.272,0.726,0.721,0.152
+"98","2003","Where Is The Love?","The Black Eyed Peas",0.193,0.706,0.835,0.104
+"99","2003","Baby Boy","Beyonce",0.076,0.485,0.334,0.666
+"100","2003","Stand Up","Ludacris & Shaunna",0.349,0.84,0.75,0.369
+"101","2003","Hey Ya!","OutKast",0.0665,0.974,0.728,0.103
+"102","2004","Hey Ya!","OutKast",0.0665,0.974,0.728,0.103
+"103","2004","Milkshake","Kelis",0.0439,0.77,0.891,0.00862
+"104","2004","You Don't Know My Name","Alicia Keys",0.19,0.663,0.263,0.589
+"105","2004","The Way You Move","OutKast",0.0464,0.597,0.871,0.126
+"106","2004","Me, Myself & I","Beyonce",0.0955,0.672,0.757,0.0186
+"107","2004","Yeah!","Usher, Lil' Jon & Ludacris",0.133,0.588,0.672,0.619
+"108","2004","Toxic","Britney Spears",0.114,0.838,0.774,0.0249
+"109","2004","Slow Jamz","Twista, Kanye West & Jamie Foxx",0.171,0.733,0.559,0.314
+"110","2004","One Call Away","Chingy & J Weav",0.0344,0.613,0.667,0.403
+"111","2004","I Don't Wanna Know","Mario Winans, Enya & P Diddy",0.0462,0.515,0.833,0.347
+"112","2004","Naughty Girl","Beyonce",0.161,0.461,0.588,0.237
+"113","2004","My Band","D12 & Eminem",0.0828,0.849,0.851,0.497
+"114","2004","This Love","Maroon 5",0.237,0.861,0.738,0.32
+"115","2004","Burn","Usher",0.168,0.66,0.454,0.0364
+"116","2004","The Reason","Hoobastank",0.0299,0.235,0.331,0.918
+"117","2004","Confessions Part II","Usher",0.138,0.467,0.845,0.0586
+"118","2004","Slow Motion","Juvenile & Soulja Slim",0.0388,0.408,0.733,0.679
+"119","2004","Lean Back","Terror Squad",0.517,0.922,0.698,0.129
+"120","2004","Goodies","Ciara & Petey Pablo",0.161,0.511,0.944,0.042
+"121","2004","She Will Be Loved","Maroon 5",0.0301,0.713,0.706,0.0596
+"122","2004","My Place","Nelly & Jaheim",0.184,0.908,0.603,0.0144
+"123","2004","My Boo","Usher & Alicia Keys",0.118,0.507,0.662,0.257
+"124","2004","Lose My Breath","Destiny's Child",0.207,0.892,0.721,0.0351
+"125","2004","Just Lose It","Eminem",0.0484,0.646,0.949,0.0705
+"126","2004","Drop It Like It's Hot","Snoop Dogg & Pharrell Williams",0.215,0.622,0.881,0.187
+"127","2005","Drop It Like It's Hot","Snoop Dogg & Pharrell Williams",0.215,0.622,0.881,0.187
+"128","2005","Let Me Love You","Mario",0.0922,0.578,0.656,0.235
+"129","2005","1-2 Step","Ciara & Missy 'Misdemeanor' Elliot",0.0414,0.896,0.805,0.0176
+"130","2005","Lose My Breath","Destiny's Child",0.207,0.892,0.721,0.0351
+"131","2005","Boulevard Of Broken Dreams","Green Day",0.0294,0.682,0.496,0.00552
+"132","2005","Candy Shop","50 Cent & Olivia",0.466,0.574,0.614,0.0253
+"133","2005","Get Right","Jennifer Lopez",0.238,0.743,0.95,0.0646
+"134","2005","How We Do","The Game & 50 Cent",0.0748,0.63,0.799,0.0159
+"135","2005","Rich Girl","Gwen Stefani & Eve",0.134,0.643,0.597,0.5
+"136","2005","Hollaback Girl","Gwen Stefani",0.0954,0.918,0.918,0.344
+"137","2005","Hate It Or Love It","The Game & 50 Cent",0.204,0.785,0.807,0.122
+"138","2005","Lonely","Akon",0.305,0.61,0.48,0.0456
+"139","2005","Don't Phunk With My Heart","The Black Eyed Peas",0.0645,0.929,0.691,0.00877
+"140","2005","We Belong Together","Mariah Carey",0.0835,0.469,0.838,0.0358
+"141","2005","Just A Lil Bit","50 Cent",0.41,0.692,0.489,0.0322
+"142","2005","Lose Control","Missy 'Misdemeanor' Elliott",0.121,0.813,0.904,0.0311
+"143","2005","Pon de replay","Rihanna",0.159,0.64,0.779,0.000155
+"144","2005","Don't Cha","The Pussycat Dolls",0.0888,0.643,0.879,0.00603
+"145","2005","Shake It Off","Mariah Carey",0.165,0.785,0.648,0.0561
+"146","2005","Gold Digger","Kanye West & Jamie Foxx",0.384,0.699,0.638,0.0223
+"147","2005","Photograph","Nickelback",0.0476,0.379,0.614,0.607
+"148","2005","My Humps","The Black Eyed Peas",0.223,0.688,0.8,0.12
+"149","2005","Run It","Chris Brown & Juelz Santana",0.129,0.482,0.846,0.0246
+"150","2005","We Be Burnin'","Sean Paul",0.151,0.803,0.95,0.145
+"151","2005","Hung Up","Madonna",0.0452,0.647,0.649,0.0039
+"152","2005","Stickwitu","The Pussycat Dolls",0.052,0.551,0.652,0.289
+"153","2006","Don't Forget About Us","Mariah Carey",0.0395,0.529,0.7,0.0422
+"154","2006","Hung Up","Madonna",0.0452,0.647,0.649,0.0039
+"155","2006","Stickwitu","The Pussycat Dolls",0.052,0.551,0.652,0.289
+"156","2006","My Humps","The Black Eyed Peas",0.223,0.688,0.8,0.12
+"157","2006","Run It","Chris Brown & Juelz Santana",0.129,0.482,0.846,0.0246
+"158","2006","Grillz","Nelly & Paul Wall, Ali & Gipp",0.266,0.515,0.862,0.0406
+"159","2006","Check On It","Beyonce & Slim Thug",0.369,0.884,0.519,0.00294
+"160","2006","Temperature","Sean Paul",0.0685,0.6,0.951,0.106
+"161","2006","You're Beautiful","James Blunt",0.0278,0.479,0.675,0.633
+"162","2006","Be Without You","Mary J Blige",0.135,0.689,0.724,0.083
+"163","2006","So Sick","Ne-Yo",0.262,0.592,0.699,0.273
+"164","2006","Bad Day","Daniel Powter",0.0309,0.785,0.599,0.448
+"165","2006","SOS","Rihanna",0.0715,0.645,0.802,0.272
+"166","2006","Dani California","Red Hot Chili Peppers",0.0409,0.865,0.553,0.017
+"167","2006","Hips Don't Lie","Shakira & Wyclef Jean",0.0712,0.824,0.778,0.284
+"168","2006","Ridin'","Chamillionaire & Krayzie Bone",0.0448,0.817,0.547,0.0986
+"169","2006","Crazy","Gnarls Barkley",0.0262,0.402,0.552,0.676
+"170","2006","Promiscuous","Nelly Furtado & Timbaland",0.0476,0.977,0.813,0.05
+"171","2006","Ain't No Other Man","Christina Aguilera",0.222,0.742,0.862,0.00376
+"172","2006","Buttons","The Pussycat Dolls & Snoop Dogg",0.32,0.823,0.544,0.158
+"173","2006","Me & U","Cassie",0.125,0.568,0.776,0.0204
+"174","2006","Unfaithful","Rihanna",0.0334,0.391,0.588,0.839
+"175","2006","SexyBack","Justin Timberlake",0.0789,0.583,0.967,0.0584
+"176","2006","London Bridge","Fergie",0.381,0.63,0.748,0.214
+"177","2006","Money Maker","Ludacris & Pharrell Williams",0.252,0.613,0.571,0.177
+"178","2006","Call Me When You're Sober","Evanescence",0.0524,0.883,0.45,0.00193
+"179","2006","Chasing Cars","Snow Patrol",0.0276,0.592,0.563,0.209
+"180","2006","Smack That","Akon",0.0478,0.738,0.937,0.292
+"181","2006","My Love","Justin Timberlake & T.I.",0.121,0.347,0.743,0.167
+"182","2006","Irreplaceable","Beyonce",0.382,0.694,0.447,0.0293
+"183","2006","I Wanna Love You","Akon & Snoop Dogg",0.0423,0.46,0.866,0.0442
+"184","2007","Irreplaceable","Beyonce",0.382,0.694,0.447,0.0293
+"185","2007","Smack That","Akon",0.0478,0.738,0.937,0.292
+"186","2007","My Love","Justin Timberlake & T.I.",0.121,0.347,0.743,0.167
+"187","2007","I Wanna Love You","Akon & Snoop Dogg",0.0423,0.46,0.866,0.0442
+"188","2007","This Ain't A Scene, It's An Arms Race","Fall Out Boy",0.0396,0.888,0.601,0.000623
+"189","2007","The Sweet Escape","Gwen Stefani & Akon",0.0356,0.765,0.755,0.218
+"190","2007","What Goes Around Comes Around","Justin Timberlake",0.176,0.723,0.685,0.131
+"191","2007","Say It Right","Nelly Furtado",0.13,0.873,0.871,0.0488
+"192","2007","Girlfriend","Avril Lavigne",0.0917,0.554,0.726,0.0421
+"193","2007","Glamorous","Fergie & Ludacris",0.211,0.748,0.81,0.32
+"194","2007","Don't Matter","Akon",0.0414,0.457,0.79,0.24
+"195","2007","Give It To Me","Timbaland & Nelly Furtado & Justin Timberlake",0.042,0.746,0.705,0.127
+"196","2007","Beautiful Liar","Beyonce & Shakira",0.0703,0.751,0.764,0.00554
+"197","2007","Umbrella","Rihanna & Jay-Z",0.134,0.829,0.583,0.00864
+"198","2007","Makes Me Wonder","Maroon 5",0.0357,0.867,0.806,0.00546
+"199","2007","Big Girls Don't Cry (Personal)","Fergie",0.0336,0.647,0.712,0.239
+"200","2007","The Way I Are","Timbaland & Keri Hilson",0.106,0.808,0.734,0.189
+"201","2007","Hey There Delilah","Plain White T's",0.0293,0.291,0.657,0.872
+"202","2007","Stronger","Kanye West",0.153,0.717,0.617,0.00564
+"203","2007","Beautiful Girls","Sean Kingston",0.0687,0.661,0.762,0.15
+"204","2007","Ayo Technology","50 Cent & Justin Timberlake & Timbaland",0.198,0.774,0.442,0.0943
+"205","2007","Crank That (Soulja Boy)","Soulja Boy",0.101,0.724,0.732,0.511
+"206","2007","Apologize","Timbaland & OneRepublic",0.0368,0.718,0.591,0.348
+"207","2007","No One","Alicia Keys",0.0286,0.548,0.644,0.0209
+"208","2007","Kiss Kiss","Chris Brown & T-Pain",0.11,0.862,0.791,0.037
+"209","2007","Gimme More","Britney Spears",0.0334,0.844,0.788,0.25
+"210","2008","Apologize","Timbaland & OneRepublic",0.0368,0.718,0.591,0.348
+"211","2008","No One","Alicia Keys",0.0286,0.548,0.644,0.0209
+"212","2008","Don't Stop The Music","Rihanna",0.0643,0.669,0.835,0.0336
+"213","2008","Low","Flo-Rida & T-Pain",0.166,0.569,0.584,0.0508
+"214","2008","With You","Chris Brown",0.0447,0.835,0.51,0.00791
+"215","2008","Bleeding Love","Leona Lewis",0.0357,0.656,0.638,0.188
+"216","2008","Touch My Body","Mariah Carey",0.0539,0.666,0.716,0.129
+"217","2008","Four Minutes","Madonna & Justin Timberlake",0.195,0.8,0.628,0.000944
+"218","2008","Love In This Club","Usher & Young Jeezy",0.0732,0.712,0.573,0.0572
+"219","2008","Take A Bow","Rihanna",0.0715,0.467,0.697,0.248
+"220","2008","Mercy","Duffy",0.324,0.385,0.772,0.0309
+"221","2008","Lollipop","Lil' Wayne",0.199,0.433,0.828,0.0656
+"222","2008","I Kissed A Girl","Katy Perry",0.0677,0.76,0.699,0.00223
+"223","2008","Viva la vida","Coldplay",0.0289,0.619,0.485,0.0941
+"224","2008","All Summer Long","Kid Rock",0.0283,0.864,0.7,0.0212
+"225","2008","Closer","Ne-Yo",0.0338,0.524,0.748,0.414
+"226","2008","Forever","Chris Brown",0.277,0.92,0.544,0.244
+"227","2008","Disturbia","Rihanna",0.0571,0.813,0.707,0.0863
+"228","2008","So What","Pink",0.045,0.886,0.535,0.000304
+"229","2008","Whatever You Like","T.I.",0.0709,0.687,0.68,0.0161
+"230","2008","Live Your Life","T.I. & Rihanna",0.255,0.862,0.375,0.071
+"231","2008","If I Were A Boy","Beyonce",0.0313,0.518,0.632,0.107
+"232","2008","Hot 'n' cold","Katy Perry",0.0418,0.841,0.706,7.95e-05
+"233","2008","Womanizer","Britney Spears",0.0622,0.695,0.724,0.073
+"234","2009","Hot 'n' cold","Katy Perry",0.0418,0.841,0.706,7.95e-05
+"235","2009","Just Dance","Lady GaGa & Colby O'Donis",0.0314,0.737,0.822,0.0261
+"236","2009","If I Were A Boy","Beyonce",0.0313,0.518,0.632,0.107
+"237","2009","Single Ladies (Put A Ring On It)","Beyonce",0.296,0.584,0.426,0.0383
+"238","2009","Live Your Life","T.I. & Rihanna",0.255,0.862,0.375,0.071
+"239","2009","Womanizer","Britney Spears",0.0622,0.695,0.724,0.073
+"240","2009","So What","Pink",0.045,0.886,0.535,0.000304
+"241","2009","Poker Face","Lady GaGa",0.0761,0.815,0.846,0.139
+"242","2009","Right Round","Flo-Rida & Ke$ha",0.0551,0.672,0.72,0.009
+"243","2009","My Life Would Suck Without You","Kelly Clarkson",0.0509,0.882,0.526,0.0014
+"244","2009","Boom Boom Pow","The Black Eyed Peas",0.0827,0.851,0.869,0.15
+"245","2009","Halo","Beyonce",0.0628,0.72,0.508,0.272
+"246","2009","I Gotta Feeling","The Black Eyed Peas",0.0264,0.748,0.741,0.0823
+"247","2009","I Know You Want Me (Calle Ocho)","Pitbull",0.145,0.733,0.817,0.0152
+"248","2009","When Love Takes Over","David Guetta & Kelly Rowland",0.0253,0.862,0.674,0.0157
+"249","2009","LoveGame","Lady GaGa",0.0652,0.649,0.892,0.00587
+"250","2009","New Divide","Linkin Park",0.0362,0.808,0.493,0.000235
+"251","2009","Sexy Chick (Sexy Bitch)","David Guetta & Akon",0.0356,0.839,0.742,0.0231
+"252","2009","Paparazzi","Lady GaGa",0.0535,0.688,0.755,0.0947
+"253","2009","Run This Town","Jay-Z, Rihanna & Kanye West",0.0411,0.809,0.437,0.219
+"254","2009","She Wolf","Shakira",0.0444,0.69,0.865,0.289
+"255","2009","Down","Jay Sean & Lil' Wayne",0.0318,0.557,0.652,0.74
+"256","2009","Meet Me Half Way","The Black Eyed Peas",0.0266,0.395,0.635,0.0929
+"257","2009","Bad Romance","Lady GaGa",0.0391,0.921,0.697,0.00305
+"258","2009","Empire State Of Mind","Jay-Z & Alicia Keys",0.0341,0.368,0.479,0.739
+"259","2009","Russian Roulette","Rihanna",0.0447,0.486,0.48,0.046
+"260","2009","Tik-Toc","Ke$ha",0.085,0.553,0.616,0.0342
+"261","2010","Bad Romance","Lady GaGa",0.0391,0.921,0.697,0.00305
+"262","2010","Tik-Toc","Ke$ha",0.085,0.553,0.616,0.0342
+"263","2010","Meet Me Half Way","The Black Eyed Peas",0.0266,0.395,0.635,0.0929
+"264","2010","Empire State Of Mind","Jay-Z & Alicia Keys",0.0341,0.368,0.479,0.739
+"265","2010","Fireflies","Owl City",0.0417,0.649,0.591,0.0294
+"266","2010","Rude Boy","Rihanna",0.127,0.75,0.563,0.113
+"267","2010","Telephone","Lady GaGa & Beyonce",0.0403,0.832,0.825,0.00587
+"268","2010","Hey, Soul Sister","Train",0.0431,0.886,0.673,0.185
+"269","2010","OMG","Usher & will.i.am",0.0536,0.576,0.655,0.0295
+"270","2010","Break Your Heart","Taio Cruz & Ludacris",0.0487,0.695,0.651,0.23
+"271","2010","California Gurls","Katy Perry & Snoop Dogg",0.0569,0.754,0.791,0.00446
+"272","2010","Alejandro","Lady GaGa",0.0557,0.789,0.632,0.00043
+"273","2010","Waka Waka (This Time For Africa)","Shakira & Freshly Ground",0.143,0.873,0.766,0.00627
+"274","2010","Airplanes","BoB & Hayley Williams",0.116,0.867,0.66,0.11
+"275","2010","Wavin' Flag","K'naan",0.058,0.768,0.584,0.329
+"276","2010","Love The Way You Lie","Rihanna & Eminem",0.227,0.925,0.749,0.241
+"277","2010","Dynamite","Taio Cruz",0.0853,0.804,0.754,0.00332
+"278","2010","Teenage Dream","Katy Perry",0.0355,0.804,0.719,0.0132
+"279","2010","Club Can't Handle Me","Flo-Rida & David Guetta",0.0327,0.869,0.616,0.0283
+"280","2010","I Like It","Enrique Iglesias & Pitbull",0.129,0.726,0.816,0.099
+"281","2010","Just The Way You Are (Amazing)","Bruno Mars",0.036,0.248,0.475,0.933
+"282","2010","DJ Got Us Fallin' In Love","Usher & Pitbull",0.109,0.861,0.663,0.0338
+"283","2010","Only Girl (In The World)","Rihanna",0.0382,0.714,0.78,0.119
+"284","2010","The Time (Dirty Bit)","The Black Eyed Peas",0.0664,0.813,0.816,0.0662
+"285","2010","Raise Your Glass","Pink",0.0897,0.695,0.7,0.00629
+"286","2010","Firework","Katy Perry",0.0479,0.826,0.638,0.139
+"287","2011","Firework","Katy Perry",0.0479,0.826,0.638,0.139
+"288","2011","The Time (Dirty Bit)","The Black Eyed Peas",0.0664,0.813,0.816,0.0662
+"289","2011","Grenade","Bruno Mars",0.0593,0.558,0.706,0.146
+"290","2011","Only Girl (In The World)","Rihanna",0.0382,0.714,0.78,0.119
+"291","2011","What's My Name?","Rihanna & Drake",0.0492,0.833,0.692,0.000136
+"292","2011","Born This Way","Lady GaGa",0.161,0.828,0.587,0.00327
+"293","2011","S&M","Rihanna",0.0437,0.673,0.764,0.0156
+"294","2011","Rolling In The Deep","Adele",0.0294,0.756,0.729,0.131
+"295","2011","On The Floor","Jennifer Lopez & Pitbull",0.0458,0.824,0.594,0.0617
+"296","2011","E.T.","Katy Perry & Kanye West",0.175,0.869,0.62,0.0181
+"297","2011","Just Can't Get Enough","The Black Eyed Peas",0.0347,0.779,0.759,0.407
+"298","2011","Party Rock Anthem","LMFAO",0.142,0.727,0.75,0.0189
+"299","2011","Give Me Everything","Pitbull, Ne-Yo, Afrojack & Nayer",0.161,0.939,0.671,0.192
+"300","2011","The Lazy Song","Bruno Mars",0.0621,0.804,0.738,0.332
+"301","2011","The Edge Of Glory","Lady GaGa",0.0401,0.772,0.581,0.000343
+"302","2011","Last Friday Night (TGIF)","Katy Perry",0.0573,0.654,0.686,0.000791
+"303","2011","Someone Like You","Adele",0.0285,0.33,0.559,0.892
+"304","2011","We Found Love","Rihanna & Calvin Harris",0.0383,0.766,0.734,0.025
+"305","2011","Without You","David Guetta & Usher",0.0248,0.55,0.536,0.0537
+"306","2011","Sexy And I Know It","LMFAO",0.316,0.861,0.707,0.1
+"307","2011","Good Feeling","Flo-Rida",0.037,0.548,0.535,0.533
+"308","2012","We Found Love","Rihanna & Calvin Harris",0.0383,0.766,0.734,0.025
+"309","2012","Sexy And I Know It","LMFAO",0.316,0.861,0.707,0.1
+"310","2012","Good Feeling","Flo-Rida",0.037,0.548,0.535,0.533
+"311","2012","Someone Like You","Adele",0.0285,0.33,0.559,0.892
+"312","2012","Set Fire To The Rain","Adele",0.0253,0.683,0.61,0.00382
+"313","2012","Somebody That I Used To Know","Gotye & Kimbra",0.0384,0.517,0.857,0.565
+"314","2012","Stronger (What Doesn't Kill You)","Kelly Clarkson",0.0475,0.939,0.562,0.046
+"315","2012","Turn Me On","David Guetta & Nicki Minaj",0.0787,0.774,0.681,0.0992
+"316","2012","The Wild Ones","Flo-Rida & Sia",0.0437,0.7,0.492,0.413
+"317","2012","We Are Young","fun.",0.075,0.638,0.378,0.02
+"318","2012","Starships","Nicki Minaj",0.075,0.716,0.747,0.135
+"319","2012","Call Me Maybe","Carly Rae Jepsen",0.0435,0.585,0.778,0.0123
+"320","2012","Drive By","Train",0.032,0.837,0.765,0.00107
+"321","2012","Payphone","Maroon 5 & Wiz Khalifa",0.0394,0.756,0.739,0.0136
+"322","2012","Whistle","Flo-Rida",0.15,0.712,0.822,0.00682
+"323","2012","Wide Awake","Katy Perry",0.0367,0.683,0.514,0.0749
+"324","2012","We Are Never Ever Getting Back Together","Taylor Swift",0.113,0.682,0.622,0.00995
+"325","2012","Gangnam Style","Psy",0.284,0.939,0.736,0.0055
+"326","2012","One More Night","Maroon 5",0.0339,0.8,0.71,0.0563
+"327","2012","Some Nights","fun.",0.0506,0.738,0.672,0.0178
+"328","2012","Diamonds","Rihanna",0.0461,0.71,0.564,0.00125
+"329","2012","Locked Out Of Heaven","Bruno Mars",0.0431,0.698,0.726,0.049
+"330","2012","Die Young","Ke$ha",0.276,0.656,0.688,0.218
+"331","2012","Skyfall","Adele",0.0282,0.552,0.346,0.417
+"332","2013","Diamonds","Rihanna",0.0461,0.71,0.564,0.00125
+"333","2013","Scream & Shout","will.i.am & Britney Spears",0.0696,0.685,0.772,0.019
+"334","2013","Locked Out Of Heaven","Bruno Mars",0.0431,0.698,0.726,0.049
+"335","2013","Gangnam Style","Psy",0.284,0.939,0.736,0.0055
+"336","2013","I Knew You Were Trouble","Taylor Swift",0.0363,0.469,0.622,0.00454
+"337","2013","Thrift Shop","Macklemore & Ryan Lewis",0.293,0.526,0.781,0.0619
+"338","2013","Harlem Shake","Baauer",0.0483,0.794,0.452,0.0111
+"339","2013","Stay","Rihanna & Mikky Ekko",0.0274,0.468,0.479,0.414
+"340","2013","When I Was Your Man","Bruno Mars",0.0434,0.28,0.612,0.932
+"341","2013","Just Give Me A Reason","Pink & Nate Ruess",0.0489,0.547,0.778,0.346
+"342","2013","Mirrors","Justin Timberlake",0.0503,0.512,0.574,0.234
+"343","2013","Can't Hold Us","Macklemore & Ryan Lewis",0.0786,0.922,0.641,0.0291
+"344","2013","Get Lucky","Daft Punk & Pharrell Williams",0.0403,0.793,0.81,0.0378
+"345","2013","Blurred Lines","Robin Thicke, T.I. & Pharrell Williams",0.0402,0.608,0.862,0.00373
+"346","2013","Wake Me Up","Avicii",0.0524,0.784,0.518,0.00346
+"347","2013","We Can't Stop","Miley Cyrus",0.0334,0.622,0.613,0.00882
+"348","2013","Roar","Katy Perry",0.0418,0.772,0.554,0.00487
+"349","2013","Applause","Lady GaGa",0.053,0.78,0.669,0.0265
+"350","2013","Wrecking Ball","Miley Cyrus",0.0342,0.422,0.53,0.407
+"351","2013","Royals","Lorde",0.133,0.432,0.616,0.106
+"352","2013","The Monster","Rihanna & Eminem",0.0715,0.853,0.781,0.0525
+"353","2013","Timber","Pitbull & Ke$ha",0.0981,0.963,0.581,0.0295
+"354","2014","Timber","Pitbull & Ke$ha",0.0981,0.963,0.581,0.0295
+"355","2014","The Monster","Rihanna & Eminem",0.0715,0.853,0.781,0.0525
+"356","2014","Counting Stars","OneRepublic",0.0382,0.705,0.664,0.0654
+"357","2014","Royals","Lorde",0.133,0.432,0.616,0.106
+"358","2014","Happy","Pharrell Williams",0.0304,0.383,0.66,0.381
+"359","2014","Dark Horse","Katy Perry",0.0513,0.585,0.645,0.00314
+"360","2014","All Of Me","John Legend",0.0322,0.264,0.422,0.922
+"361","2014","Fancy","Iggy Azalea & Charli XCX",0.0446,0.866,0.699,0.0132
+"362","2014","Summer","Calvin Harris",0.0566,0.723,0.661,0.179
+"363","2014","Problem","Ariana Grande & Iggy Azalea",0.153,0.805,0.66,0.0192
+"364","2014","Wiggle","Jason Derulo & Snoop Dogg",0.25,0.621,0.697,0.0802
+"365","2014","Stay With Me","Sam Smith",0.0414,0.42,0.418,0.588
+"366","2014","Am I Wrong","Nico & Vinz",0.0306,0.68,0.725,0.162
+"367","2014","Rude","Magic!",0.0389,0.756,0.774,0.0423
+"368","2014","All About That Bass","Meghan Trainor",0.0503,0.887,0.807,0.0573
+"369","2014","Shake It Off","Taylor Swift",0.165,0.785,0.648,0.0561
+"370","2014","Maps","Maroon 5",0.0303,0.713,0.742,0.0205
+"371","2014","Bang Bang","Jessie J, Nicki Minaj & Ariana Grande",0.0507,0.529,0.715,0.259
+"372","2014","Black Widow","Iggy Azalea & Rita Ora",0.143,0.726,0.741,0.181
+"373","2014","Blame","Calvin Harris & John Newman",0.0421,0.587,0.651,0.135
+"374","2014","Blank Space","Taylor Swift",0.0646,0.678,0.752,0.085
+"375","2014","Take Me To Church","Hozier",0.0464,0.664,0.566,0.634
+"376","2014","Uptown Funk","Mark Ronson & Bruno Mars",0.0824,0.609,0.856,0.00801
+"377","2014","Dangerous","David Guetta & Sam Martin",0.311,0.67,0.736,0.186
+"378","2015","Uptown Funk","Mark Ronson & Bruno Mars",0.0824,0.609,0.856,0.00801
+"379","2015","Take Me To Church","Hozier",0.0464,0.664,0.566,0.634
+"380","2015","Blank Space","Taylor Swift",0.0646,0.678,0.752,0.085
+"381","2015","Thinking Out Loud","Ed Sheeran",0.0295,0.445,0.781,0.474
+"382","2015","All About That Bass","Meghan Trainor",0.0503,0.887,0.807,0.0573
+"383","2015","Love Me Like You Do","Ellie Goulding",0.0484,0.606,0.262,0.247
+"384","2015","FourFiveSeconds","Rihanna, Kanye West & Paul McCartney",0.044,0.267,0.576,0.878
+"385","2015","Sugar","Maroon 5",0.0794,0.824,0.499,0.00898
+"386","2015","See You Again","Wiz Khalifa & Charlie Puth",0.0959,0.559,0.558,0.371
+"387","2015","Want To Want Me","Jason Derulo",0.0616,0.872,0.519,0.0793
+"388","2015","Bad Blood","Taylor Swift & Kendrick Lamar",0.0407,0.715,0.679,0.0755
+"389","2015","Hey Mama","David Guetta, Nicki Minaj & Afrojack",0.217,0.767,0.628,0.0572
+"390","2015","Lean On","Major Lazer & DJ Snake",0.0625,0.809,0.723,0.00346
+"391","2015","Cheerleader","OMI",0.0305,0.68,0.78,0.141
+"392","2015","Can't Feel My Face","The Weeknd",0.0426,0.769,0.705,0.112
+"393","2015","What Do You Mean?","Justin Bieber",0.0922,0.571,0.837,0.61
+"394","2015","Locked Away","R City & Adam Levine",0.0656,0.677,0.508,0.328
+"395","2015","The Hills","The Weeknd",0.0488,0.565,0.58,0.0671
+"396","2015","Hello","Adele",0.0347,0.451,0.481,0.336
+"397","2015","Hotline Bling","Drake",0.0578,0.621,0.903,0.00302
+"398","2015","Sorry","Justin Bieber",0.225,0.64,0.705,0.0237
+"399","2015","Love Yourself","Justin Bieber",0.453,0.376,0.607,0.856
+"400","2016","Hello","Adele",0.0347,0.451,0.481,0.336
+"401","2016","Sorry","Justin Bieber",0.225,0.64,0.705,0.0237
+"402","2016","Love Yourself","Justin Bieber",0.453,0.376,0.607,0.856
+"403","2016","Stitches","Shawn Mendes",0.067,0.754,0.746,0.0152
+"404","2016","Work","Rihanna & Drake",0.106,0.427,0.831,0.0531
+"405","2016","Stressed Out","Twenty One Pilots",0.141,0.637,0.734,0.0462
+"406","2016","Seven Years","Lukas Graham",0.0967,0.941,0.239,2.3e-05
+"407","2016","I Took A Pill In Ibiza","Mike Posner",0.112,0.713,0.663,0.0353
+"408","2016","One Dance","Drake, WizKid & Kyla",0.0516,0.61,0.796,0.00842
+"409","2016","Panda","Desiigner",0.393,0.748,0.72,0.0235
+"410","2016","Work From Home","Fifth Harmony & Ty Dolla Sign",0.0432,0.585,0.803,0.103
+"411","2016","Can't Stop The Feeling","Justin Timberlake",0.0682,0.832,0.669,0.0106
+"412","2016","This Is What You Came For","Rihanna & Calvin Harris",0.0331,0.928,0.63,0.199
+"413","2016","Don't Let Me Down","The Chainsmokers & Daya",0.172,0.869,0.532,0.157
+"414","2016","Cheap Thrills","Sia",0.105,0.698,0.628,0.0472
+"415","2016","Cold Water","Major Lazer, Justin Bieber & MO",0.0534,0.797,0.602,0.055
+"416","2016","Closer","The Chainsmokers & Halsey",0.0338,0.524,0.748,0.414
+"417","2016","Let Me Love You","DJ Snake & Justin Bieber",0.0922,0.578,0.656,0.235
+"418","2016","Heathens","Twenty One Pilots",0.0286,0.396,0.732,0.0841
+"419","2016","Starboy","The Weeknd & Daft Punk",0.276,0.588,0.678,0.141
+"420","2016","Black Beatles","Rae Sremmurd & Gucci Mane",0.0649,0.632,0.794,0.142
+"421","2017","Starboy","The Weeknd & Daft Punk",0.276,0.588,0.678,0.141
+"422","2017","Black Beatles","Rae Sremmurd & Gucci Mane",0.0649,0.632,0.794,0.142
+"423","2017","Closer","The Chainsmokers & Halsey",0.0338,0.524,0.748,0.414
+"424","2017","24K Magic","Bruno Mars",0.0797,0.803,0.818,0.034
+"425","2017","Shape Of You","Ed Sheeran",0.0802,0.652,0.825,0.581
+"426","2017","I Don't Wanna Live Forever (Fifty Shades Darker)","Zayn & Taylor Swift",0.033,0.403,0.787,0.603
+"427","2017","Bad And Boujee","Migos & Lil Uzi Vert",0.244,0.665,0.927,0.061
+"428","2017","Paris","The Chainsmokers",0.0832,0.648,0.849,0.0725
+"429","2017","Chained To The Rhythm","Katy Perry & Skip Marley",0.174,0.8,0.446,0.0814
+"430","2017","Something Just Like This","The Chainsmokers & Coldplay",0.0317,0.635,0.617,0.0498
+"431","2017","That's What I Like","Bruno Mars",0.0406,0.56,0.853,0.013
+"432","2017","It Ain't Me","Kygo & Selena Gomez",0.0706,0.533,0.64,0.119
+"433","2017","Despacito","Luis Fonsi & Daddy Yankee",0.167,0.816,0.653,0.228
+"434","2017","Humble","Kendrick Lamar",0.102,0.621,0.908,0.000282
+"435","2017","I'm The One","DJ Khaled, Justin Bieber, Quavo, Chance The Rapper & Lil' Wayne",0.0361,0.485,0.677,0.529
+"436","2017","Wild Thoughts","DJ Khaled, Rihanna & Bryson Tiller",0.0778,0.681,0.613,0.0287
+"437","2017","Unforgettable","French Montana & Swae Lee",0.123,0.769,0.726,0.0293
+"438","2017","Feels","Calvin Harris, Pharrell Williams, Katy Perry & Big Sean",0.13,0.596,0.554,0.162
+"439","2017","Look What You Made Me Do","Taylor Swift",0.123,0.709,0.766,0.204
+"440","2017","Rockstar","Post Malone & 21 Savage",0.0898,0.535,0.587,0.117
+"441","2017","Bodak Yellow (Money Moves)","Cardi B",0.0674,0.903,0.768,0.00863
+"442","2017","Havana","Camila Cabello & Young Thug",0.03,0.523,0.765,0.184
+"443","2017","Feel It Still","Portugal, The Man",0.0504,0.795,0.801,0.0417
+"444","2017","Too Good At Goodbyes","Sam Smith",0.0505,0.373,0.661,0.615
+"445","2017","Gucci Gang","Lil Pump",0.0597,0.523,0.936,0.239
+"446","2018","Perfect","Ed Sheeran",0.0232,0.448,0.599,0.163
+"447","2018","Havana","Camila Cabello & Young Thug",0.03,0.523,0.765,0.184
+"448","2018","Rockstar","Post Malone & 21 Savage",0.0898,0.535,0.587,0.117
+"449","2018","God's Plan","Drake",0.109,0.449,0.754,0.0332
+"450","2018","Finesse","Bruno Mars & Cardi B",0.0996,0.859,0.704,0.0185
+"451","2018","Psycho","Post Malone & Ty Dolla Sign",0.222,0.73,0.834,0.00513
+"452","2018","Friends","Marshmello & Anne-Marie",0.0371,0.497,0.216,0.128
+"453","2018","Nice For What","Drake",0.0705,0.909,0.586,0.0891
+"454","2018","No Tears Left To Cry","Ariana Grande",0.0594,0.713,0.699,0.04
+"455","2018","One Kiss","Calvin Harris & Dua Lipa",0.11,0.862,0.791,0.037
+"456","2018","The Middle","Zedd, Maren Morris & Grey",0.0449,0.657,0.753,0.171
+"457","2018","I Like It","Cardi B, Bad Bunny & J Balvin",0.129,0.726,0.816,0.099
+"458","2018","Girls Like You","Maroon 5 & Cardi B",0.0505,0.541,0.851,0.568
+"459","2018","Sad!","XXXTentacion",0.145,0.613,0.74,0.258
+"460","2018","In My Feelings","Drake",0.125,0.626,0.835,0.0589
+"461","2018","Lucid Dreams (Forget Me)","Juice WRLD",0.187,0.266,0.672,0.187
+"462","2018","Happier","Marshmello & Bastille",0.0452,0.792,0.687,0.191
+"463","2018","Sicko Mode","Travi$ Scott",0.222,0.73,0.834,0.00513
+"464","2018","Taki Taki","DJ Snake, Selena Gomez, Ozuna & Cardi B",0.229,0.798,0.841,0.153
+"465","2018","Thank U, Next","Ariana Grande",0.0658,0.653,0.717,0.229
+"466","2018","Without Me","Halsey",0.0705,0.488,0.752,0.297
+"467","2018","All I Want For Christmas Is You","Mariah Carey",0.0386,0.625,0.335,0.164
+"468","2018","High Hopes","Panic! At the Disco",0.0618,0.904,0.579,0.193
+"469","2019","Without Me","Halsey",0.0705,0.488,0.752,0.297
+"470","2019","Sunflower (Spider-Man: Into The Spider-Verse)","Post Malone & Swae Lee",0.0466,0.479,0.76,0.556
+"471","2019","High Hopes","Panic! At the Disco",0.0618,0.904,0.579,0.193
+"472","2019","Thank U, Next","Ariana Grande",0.0658,0.653,0.717,0.229
+"473","2019","Sicko Mode","Travi$ Scott",0.222,0.73,0.834,0.00513
+"474","2019","Happier","Marshmello & Bastille",0.0452,0.792,0.687,0.191
+"475","2019","Sweet But Psycho","Ava Max",0.0476,0.704,0.719,0.0691
+"476","2019","Girls Like You","Maroon 5 & Cardi B",0.0505,0.541,0.851,0.568
+"477","2019","Zeze","Kodak Black, Travi$ Scott & Offset",0.176,0.603,0.861,0.0521
+"478","2019","Eastside","Benny Blanco, Halsey & Khalid",0.321,0.68,0.56,0.555
+"479","2019","Drip Too Hard","Lil Baby & Gunna",0.289,0.671,0.896,0.103
+"480","2019","Wow.","Post Malone",0.178,0.539,0.833,0.163
+"481","2019","Mo Bamba","Sheck Wes",0.0315,0.625,0.729,0.194
+"482","2019","Taki Taki","DJ Snake, Selena Gomez, Ozuna & Cardi B",0.229,0.798,0.841,0.153
+"483","2019","Shallow","Lady Gaga & Bradley Cooper",0.0308,0.385,0.572,0.371
+"484","2019","Better Now","Post Malone",0.0454,0.563,0.68,0.354
+"485","2019","Going Bad","Meek Mill & Drake",0.0905,0.496,0.889,0.259
+"486","2019","7 Rings","Ariana Grande",0.334,0.317,0.778,0.592
+"487","2019","Middle Child","J Cole",0.276,0.364,0.837,0.149
+"488","2019","Break Up With Your Girlfriend, I'm","Ariana Grande",0.0917,0.554,0.726,0.0421
+"489","2019","Sucker","Jonas Brothers",0.0588,0.734,0.842,0.0427
+"490","2019","Please Me","Cardi B & Bruno Mars",0.081,0.57,0.747,0.0642
+"491","2019","Thotiana","Blueface",0.269,0.382,0.906,0.18
+"492","2019","Dancing With A Stranger","Sam Smith & Normani",0.0656,0.52,0.741,0.45
+"493","2019","Murder On My Mind","YNW Melly",0.0516,0.73,0.759,0.145
