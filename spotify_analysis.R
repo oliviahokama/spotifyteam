@@ -2,7 +2,7 @@ library("httr")
 library("dplyr")
 library("spotifyr")
 
-songs <- read.csv("~/Desktop/info201/spotifyteam/data/chart2000-songmonth-0-3-0050.csv",
+songs <- read.csv("./data/chart2000-songmonth-0-3-0050.csv",
                   stringsAsFactors = F)
 songs <- songs %>% 
   mutate(year = substr(month, 5, 8)) %>% 
@@ -40,6 +40,7 @@ access_token <- get_spotify_access_token()
 
 library(spotifyr)
 beatles <- get_artist_audio_features('the beatles')
+features <- search_spotify("Perfect", type = c("track"), limit = 1)
 
 library(knitr)
 library(lubridate)
@@ -47,17 +48,17 @@ library(ggplot2)
 
 
 
-get_my_top_artists_or_tracks(type = 'artists', time_range = 'short_term', limit = 5) %>% 
-  select(name, genres) %>% 
-  rowwise %>% 
-  mutate(genres = paste(genres, collapse = ', ')) %>% 
-  ungroup %>% 
-  kable()
+#get_my_top_artists_or_tracks(type = 'artists', time_range = 'short_term', limit = 5) %>% 
+ # select(name, genres) %>% 
+  #rowwise %>% 
+  #mutate(genres = paste(genres, collapse = ', ')) %>% 
+  #ungroup %>% 
+  #kable()
 
-my_id <- 'ohokama'
-my_plists <- get_user_playlists(my_id)
+#my_id <- 'ohokama'
+#my_plists <- get_user_playlists(my_id)
 
 
-my_plists2 <- my_plists %>%
-  filter(name %in% c('Taiwan Top 50', 'France Top 50', 'Bolivia Top 50', 'U.S. Top 50'))
+#my_plists2 <- my_plists %>%
+ # filter(name %in% c('Taiwan Top 50', 'France Top 50', 'Bolivia Top 50', 'U.S. Top 50'))
 
