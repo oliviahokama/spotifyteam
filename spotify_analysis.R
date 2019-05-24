@@ -22,7 +22,7 @@ top_5_month <- top_songs_by_month %>%
 
 top_100_year <- top_songs_by_month %>%
   group_by(year) %>% 
-  top_n(., 100, score) %>% 
+  top_n(., 50, score) %>% 
   ungroup(year) %>% 
   select(year, artist, song)
 
@@ -40,12 +40,27 @@ access_token <- get_spotify_access_token()
 
 library(spotifyr)
 beatles <- get_artist_audio_features('the beatles')
-features <- search_spotify("Perfect", type = c("track"), limit = 1)
+features <- search_spotify("Smooth", type = c("track"), limit = 1)
 
 library(knitr)
 library(lubridate)
 library(ggplot2)
 
+#song_ids <- c()
+
+#for (song in top_100_year$song) {
+#  id <- search_spotify(song, type = "track", limit = 1)
+#  song_ids <- append(song_ids, id$id)
+#}
+
+searchify <- function(song) {
+  search_spotify(song, "track", limit = 1)
+}
+
+apply(top_100_year$song, 1, searchify)
+
+top_100_year <- top_100_year$song %>% 
+  mutate(id = searchify(song))
 
 
 #get_my_top_artists_or_tracks(type = 'artists', time_range = 'short_term', limit = 5) %>% 
