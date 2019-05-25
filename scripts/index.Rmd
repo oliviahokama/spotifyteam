@@ -1,5 +1,25 @@
+---
+title: "Spotify - Midpoint Deliverable"
+authors: "Andrew Chan, Olivia Hokama, Derek Hong, Paul Pham"
+date: May 24, 2019
+---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 source("summarize_table.R")
 source("summary_info.R")
+```
+## Introduction 
+Our team chose to work with Spotify, and more specifically music in general, as our area of interest. For many of us, music represents a constant and consistent source of enjoyment, and provides a much needed accompaniment to many parts of our lives. We chose this domain not only because we love music, but also because we believe that music can show us interesting trends across generations and allow us to better understand the preferences of the general population.
+
+## Song Trends in the 2000s
+Here in this table we took a look at different attributes of popular songs starting from the beginning of the 2000. We took a look at features such as the average speechiness, average energy, average dancibility, and acousticness. 
+```{r, warning=FALSE}
+song_trends
+```
+
+## Dancibility Trends
+In this chart, we took a look at the dancilbility trends of popular songs from the 2000 - 2019. This chart takes the average dancibility rating that Spotify gives each song from the data and compares it on a line graph from year to year. 
+```{r, warning = FALSE}
+danceability_trends
 ```
