@@ -13,7 +13,7 @@ avg_stats_per_year <- songs %>%
             avg_danceability = mean(danceability),
             avg_acousticness = mean(acousticness))
 
-avg_stats_per_year <- reshape2::melt(avg_stats_per_year, id.var='year')
+avg_stats_per_year <- reshape2::melt(avg_stats_per_year, id.var = "year")
 
 # Create visualization
 song_trends <- ggplot(data = avg_stats_per_year) +
@@ -21,4 +21,3 @@ song_trends <- ggplot(data = avg_stats_per_year) +
   xlab("Year") +
   ylab("Feature Value") +
   ggtitle("Trends of Song Features over time (2000 - 2019)")
-  

@@ -3,8 +3,8 @@ library("dplyr")
 song_data <- read.csv("../data/song_data.csv")
 
 get_summary_table <- function(songs) {
-  songs <- songs %>% 
-    group_by(year) %>% 
+  songs <- songs %>%
+    group_by(year) %>%
     summarize(avg_danceability = mean(danceability), avg_energy = mean(energy),
               avg_speechiness = mean(speechiness), avg_acousticness =
                 mean(acousticness))

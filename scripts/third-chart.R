@@ -13,5 +13,3 @@ speechiness_trends <- ggplot(songs) +
   xlab("Year") +
   ylab(value) +
   ggtitle("Trends in Speechiness from 2000 - 2019")
-
-

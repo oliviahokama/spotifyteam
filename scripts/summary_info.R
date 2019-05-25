@@ -42,9 +42,13 @@ get_summary_info <- function(dataset) {
     arrange(desc(speechiness)) %>%
     filter(speechiness == max(speechiness)) %>%
     pull(artist)
-  sum_info <- list(year_most_dancable, artist_most_freq, lowest_energy_song, highest_energy_song,
-                   acoustic_years, artist_most_speechiness)
-} 
+  sum_info <- list("year_most_dancable" = year_most_dancable,
+               "artist_most_freq" = artist_most_freq,
+               "lowest_energy_song" = lowest_energy_song,
+               "highest_energy_song" = highest_energy_song,
+               "acoustic_years" = acoustic_years,
+               "artist_most_speechiness" = artist_most_speechiness)
+}
 
 spotify_summary <- get_summary_info(song_data)
 
@@ -97,10 +101,3 @@ artist_most_speechiness <- song_data %>%
   arrange(desc(speechiness)) %>%
   filter(speechiness == max(speechiness)) %>%
   pull(artist)
-
-
-
-
-
-
-
