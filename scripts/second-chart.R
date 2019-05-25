@@ -10,7 +10,7 @@ songs <- read.csv("../data/song_data.csv", stringsAsFactors = F)
 value <- "danceability"
 feature <- songs[[value]]
 
-ggplot(data = songs) +
+danceability_trends <- ggplot(data = songs) +
   geom_point(mapping = aes(x = year, y = feature), color = "blue") +
   geom_smooth(mapping = aes(x = year, y = feature), color = "black") +
   xlab("Year") +
