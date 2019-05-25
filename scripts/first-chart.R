@@ -20,6 +20,5 @@ song_trends <- ggplot(data = avg_stats_per_year) +
   geom_line(mapping = aes(x = year, y = value, col = variable)) +
   xlab("Year") +
   ylab("Feature Value") +
-  ggtitle("Trends of Song Features over time (2000 - 2019)") +
-  labs(fill = "Song Features")
+  ggtitle("Trends of Song Features over time (2000 - 2019)")
   
