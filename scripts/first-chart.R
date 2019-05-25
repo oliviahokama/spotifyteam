@@ -1,6 +1,7 @@
 # import libraries
 library(dplyr)
 library(ggplot2)
+library(reshape)
 
 # Read in song data
 songs <- read.csv("../data/song_data.csv", stringsAsFactors = F)
@@ -12,5 +13,11 @@ avg_stats_per_year <- songs %>%
             avg_danceability = mean(danceability),
             avg_acousticness = mean(acousticness))
 
+avg_stats_per_year <- reshape2::melt(avg_stats_per_year, id.var='year')
+
 # Create visualization
-ggplot(avg_stats_per_year)
+ggplot(data = avg_stats_per_year) +
+  geom_line(mapping = aes(x = year, y = value, col = variable)) +
+  xlab("Year") +
+  ylab("Feature Value")
+  
