@@ -8,18 +8,37 @@ date: May 24, 2019
 knitr::opts_chunk$set(echo = FALSE)
 source("summarize_table.R")
 source("summary_info.R")
+source("first-chart.R")
+source("second-chart.R")
+source("third-chart.R")
 ```
 ## Introduction 
 Our team chose to work with Spotify, and more specifically music in general, as our area of interest. For many of us, music represents a constant and consistent source of enjoyment, and provides a much needed accompaniment to many parts of our lives. We chose this domain not only because we love music, but also because we believe that music can show us interesting trends across generations and allow us to better understand the preferences of the general population.
 
-## Song Trends in the 2000s
-Here in this table we took a look at different attributes of popular songs starting from the beginning of the 2000. We took a look at features such as the average speechiness, average energy, average dancibility, and acousticness. 
+While there are several different questions we think we could answer, we had a few specifically we wanted to focus on. First, what are the identifiable trends of genre popularity across generations? Second, are there any identifiable factors that lead to a genre becoming popular? Lastly, is there any variation of how different genres become popular within a year (seasonal)?
+
+### Song Trends in the 2000s
+Here in this chart we took a look at different attributes of popular songs starting from the beginning of the 2000. We took a look at features such as the **average speechiness, average energy, average danceability,** and **acousticness**. Here we wanted to point out how these certain features from different songs change over time as different popular songs are produced.
+
+<p>**Speechiness** detects the presence of spoken words in a track. If the speechiness of a song is above 0.66, it is probably made of spoken words, a score between 0.33 and 0.66 is a song that may contain both music and words, and a score below 0.33 means the song does not have any speech. </p>
+<p>**Energy** represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy”. </p>
+<p>**Danceability** describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.</p>
+<p>**Acousticness** describes how acoustic a song is. A score of 1.0 means the song is most likely to be an acoustic one.</p>
+<p>[Source](https://towardsdatascience.com/is-my-spotify-music-boring-an-analysis-involving-music-data-and-machine-learning-47550ae931de) </p>
+
 ```{r, warning=FALSE}
 song_trends
 ```
 
-## Dancibility Trends
-In this chart, we took a look at the dancilbility trends of popular songs from the 2000 - 2019. This chart takes the average dancibility rating that Spotify gives each song from the data and compares it on a line graph from year to year. 
+### Dancibility Trends
+In this chart, we took a look at the **danceability** trends of popular songs from the 2000 - 2019. This chart takes the average dancibility rating that Spotify gives each song from the data and plots it. 
+<p> In this chart we see that the average **danceability** rating of popular music from 2019 has only increased slightly compared to the beginning of 2000  </p>
 ```{r, warning = FALSE}
 danceability_trends
+```
+
+### Speechiness Trends
+In this chart, we're taking a look at the **speechiness** trends. As stated above, speechiness is the presence of spoken words in a track. We can see below that speechiness had a great presence in popular tracks in the early 2000's. But took a deep decline in *2006* and remained steady. We can see that *2019* has also took a large jump in **speechiness** compared to the previous years (*2006-2018*).
+```{r, warning=FALSE}
+speechiness_trends
 ```
