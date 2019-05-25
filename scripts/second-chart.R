@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 
 # Read in song data
-songs <- read.csv("../data/song_data.csv", stringsAsFactors = F)
+songs <- read.csv("data/song_data.csv", stringsAsFactors = F)
 
 # Choose a feature to check against a regression, in this case
 # we're looking at `danceability`

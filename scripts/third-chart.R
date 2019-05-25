@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 
 # Read in song data
-songs <- read.csv("../data/song_data.csv", stringsAsFactors = F)
+songs <- read.csv("data/song_data.csv", stringsAsFactors = F)
 
 value <- "speechiness"
 feature <- songs[[value]]

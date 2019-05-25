@@ -4,7 +4,7 @@ library(ggplot2)
 library(reshape)
 
 # Read in song data
-songs <- read.csv("../data/song_data.csv", stringsAsFactors = F)
+songs <- read.csv("data/song_data.csv", stringsAsFactors = F)
 
 avg_stats_per_year <- songs %>%
   group_by(year) %>%

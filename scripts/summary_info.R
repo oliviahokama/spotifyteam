@@ -2,7 +2,7 @@ library("dplyr")
 library("spotifyr")
 library(lubridate)
 
-song_data <- read.csv("../data/song_data.csv", stringsAsFactors = F)
+song_data <- read.csv("data/song_data.csv", stringsAsFactors = F)
 
 # A function that takes in a dataset and returns a list of info about it:
 get_summary_info <- function(dataset) {

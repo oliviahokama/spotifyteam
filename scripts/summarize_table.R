@@ -1,6 +1,6 @@
 library("dplyr")
 
-song_data <- read.csv("../data/song_data.csv")
+song_data <- read.csv("data/song_data.csv")
 
 get_summary_table <- function(songs) {
   songs <- songs %>%
