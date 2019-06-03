@@ -2,6 +2,7 @@ library("shiny")
 library("ggplot2")
 library("lintr")
 library("reshape")
+library("dplyr")
 
 songs <- read.csv("data/song_data.csv", stringsAsFactors = F)
 
