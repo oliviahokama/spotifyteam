@@ -5,9 +5,9 @@ library(knitr)
 library(lubridate)
 library(ggplot2)
 
-songs <- read.csv("./data/chart2000-songmonth-0-3-0050.csv",
+songs_months <- read.csv("./data/chart2000-songmonth-0-3-0050.csv",
                   stringsAsFactors = F)
-songs <- songs %>% 
+songs_months <- songs_months %>% 
   mutate(year = substr(month, 5, 8)) %>% 
   mutate(month = substr(month, 1, 3))
 
@@ -15,7 +15,7 @@ top_songs_by_year <- songs %>%
   select(song, artist, year) %>% 
   distinct()
 
-top_songs_by_month <- songs %>% 
+top_songs_by_month <- songs_months %>% 
   select(song, artist, month, year, score)
 
 top_5_month <- top_songs_by_month %>% 
@@ -49,6 +49,7 @@ top_100_year <- top_100_year %>%
 
 
 ids <- c()
+
 for (tibble in top_100_year$data) {
   ids <- append(ids, tibble$id)
 }
@@ -76,3 +77,12 @@ top_100_year$acousticness <- acousticness
 # THIS IS THE DATASET WE WANT TO USE
 song_data <- top_100_year %>% 
   select(year, song, artist, speechiness, energy, danceability, acousticness)
+
+weighted_song_data <- inner_join(songs, songs_months, by="song") %>% 
+  select(month, year.x, song, artist.x, speechiness, energy,
+         danceability, acousticness) %>% 
+  mutate(year = year.x, artist = artist.x) %>% 
+  select(year, month, song, artist, speechiness, energy, danceability,
+         acousticness)
+
+write.csv(weighted_song_data, file = "data/weighted_song_data.csv")
