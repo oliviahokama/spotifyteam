@@ -38,7 +38,7 @@ page_about <- tabPanel(
       we also think that it is important given how prevalent music has been
       throughout history, and how prevalent it will be going forward. We
       hope you think it's as interesting as we do!"),
-    h5("Produced by Andrew Chan, Paul Pham, Olivia Hokama, and Derek Hong")
+    p("Produced by Andrew Chan, Paul Pham, Olivia Hokama, and Derek Hong")
   )
 )
 
@@ -65,7 +65,11 @@ page_one <- tabPanel(
         music. Try it yourself! Use the dropdown menu above to select for
         a trend that you would like to see, mapped over the course of 20
         years. If you'd like, select the 'all' category to see all of
-        our observed trends stacked up against each other!")
+        our observed trends stacked up against each other!"),
+      p("Danceability - How suitable the song is for dance"),
+      p("Energy - The measure of intensity and musical activity"),
+      p("Acousticness - The confidence that a track is acoustic"),
+      p("Speechiness - The prominence of spoken words in a song")
     ),
     
     mainPanel(
