@@ -5,9 +5,9 @@ account: atchan24
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 966300
-bundleId: 2131676
+bundleId: 2132675
 url: https://atchan24.shinyapps.io/Music_Trends/
-when: 1559717075.27019
+when: 1559744162.82
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: .RData|index.html|index.Rmd|README.md|spotify_analysis.R
+ignoredFiles: .RData|app_server2.R|app_ui2.R|index.html|index.Rmd|README.md|spotify_analysis.R|spotify_findings.Rmd|scatter examples/build_scatter.R|scatter examples/server.R|scatter examples/ui.R
