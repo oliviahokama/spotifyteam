@@ -1,0 +1,13 @@
+name: Music_Trends
+title: Music_Trends
+username:
+account: atchan24
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 966300
+bundleId: 2131676
+url: https://atchan24.shinyapps.io/Music_Trends/
+when: 1559717075.27019
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|index.html|index.Rmd|README.md|spotify_analysis.R
