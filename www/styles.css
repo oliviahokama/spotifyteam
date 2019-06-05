@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Mandali|Varela+Round&display=swap');
+
+html {
+    background-color: rgb(31, 31, 31);
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.navbar-header {
+    font-family: "Varela Round", sans-serif;
+    color: rgb(31, 31, 31);
+    margin-top: 1%;
+}
+
+.navbar-brand {
+    color: lightgreen;
+    background-color: rgb(122, 214, 122);
+    size: 300%;
+    height: 200%;
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: "Varela Round", sans-serif;
+    font-size: 100%;
+}
+
+.nav.navbar-nav {
+    background-color: rgb(122, 214, 122);
+    color: rgb(122, 214, 122);
+}
+
+.navbar {
+    background-color: rgb(122, 214, 122);
+    size: 110%;
+    margin-bottom: 2%;
+}
+
+.col-sm-4 .well {
+    border-color: rgb(122, 214, 122);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3em;
+    background-color: rgb(31, 31, 31);
+    color: rgb(122, 214, 122);
+    font-family: "Mandali", sans-serif;
+}
+
+.col-sm-8 img {
+    border-color: rgb(122, 214, 122);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 2em;
+}
+
+#tab-4477-1 .col-sm-8 {
+    color: rgb(122, 214, 122);
+    width: 50%;
+    margin-left: 25%;
+    font-family: "Mandali", sans-serif;
+    align-content: center;
+    text-align: center;
+    border-color: rgb(122, 214, 122);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3em;
+    padding: 20px;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: center;
+}
