@@ -82,10 +82,61 @@ page_one <- tabPanel(
 
 )
 
+page_two <- tabPanel(
+  
+  titlePanel("Correlation of Features"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "first",
+        label = "First Feature",
+        choices = list("Danceability" = "Danceability", "Energy" = "Energy",
+                       "Acousticness" = "Acousticness",
+                       "Speechiness" = "Speechiness"),
+        multiple = F
+      ),
+      selectInput(
+        inputId = "second",
+        label = "Second Feature",
+        choices = list("Danceability" = "Danceability", "Energy" = "Energy",
+                       "Acousticness" = "Acousticness",
+                       "Speechiness" = "Speechiness"),
+        multiple = F
+      ),
+      sliderInput(
+        inputId = "year",
+        label = "Year (Set to 1999 for All Years)",
+        min = 1999,
+        max = 2019,
+        value = 1999,
+        step = 1,
+        animate = T
+      ),
+      p("In this page, we wanted to look at any possible correlations between
+        different features. We previously saw how certain trends rose and fall
+        across the years, and we want to know if any of those changes may have
+        been linked. After all, some of the features go very well together, and
+        would make sense to rise and fall together. For example, danceability
+        and energy would logically be linked, given dancing is an energetic
+        activity. If you want to explore a little more, we've included the ability 
+        to look at each individual year, in which case the points are color coded 
+        by month instead of year. You can hit the play button as well to view an
+        animated trends chart, which is pretty neat.")
+    ),
+    
+    mainPanel(
+      plotOutput(outputId = "scatter")
+    )
+  )
+  
+)
+
 
 ui <- navbarPage(
   theme = "styles.css",
   "Song Trends in the Past 20 Years",
   page_about,
-  page_one
+  page_one,
+  page_two
 )
