@@ -3,9 +3,9 @@ library("ggplot2")
 library("lintr")
 
 page_about <- tabPanel(
-  
+
   titlePanel("About Us"),
-  
+
   mainPanel(
     tags$div(class = "about",
       h1("Who We Are"),
@@ -20,13 +20,15 @@ page_about <- tabPanel(
         didn't use all of his data, we recommend you check some of it out
         if you want to explore further. Furthermore, we utilized the Spotify
         API to procure information about these songs when applicable. Using
-        these two in tandem, we were able to discern some fascinating information
-        about the music that has become popular in the last 20 years."),
+        these two in tandem, we were able to discern some fascinating
+        information about the music that has become popular in the last 20
+        years."),
       tags$div(class = "data-link", checked = NA,
                tags$a(href = "https://chart2000.com/about.htm", "Hawting's work
                       can be found here.")),
       tags$div(class = "data-link", checked = NA,
-               tags$a(href = "https://https://developer.spotify.com/documentation/web-api/",
+            tags$a(href =
+                "https://https://developer.spotify.com/documentation/web-api/",
                       "The Spotify API can be found here.")),
       h1("Why We Care"),
       p("Music is something that many people relate to. It's something
@@ -45,9 +47,9 @@ page_about <- tabPanel(
 )
 
 page_one <- tabPanel(
-  
+
   titlePanel("Song Trends by Year since 2000"),
-  
+
   sidebarLayout(
     sidebarPanel(
       selectInput(
@@ -56,7 +58,7 @@ page_one <- tabPanel(
         choices = list("Danceability" = "Danceability", "Energy" = "Energy",
                        "Acousticness" = "Acousticness",
                        "Speechiness" = "Speechiness", "All" = "all"),
-        multiple = F,
+        multiple = F
       ),
       p("This graph shows some of the popular trends among top songs from
         the past 20 years. It does not factor in songs that topped the charts
@@ -73,19 +75,19 @@ page_one <- tabPanel(
       p("Acousticness - The confidence that a track is acoustic"),
       p("Speechiness - The prominence of spoken words in a song")
     ),
-    
+
     mainPanel(
       plotOutput(outputId = "trends_plot")
     )
-    
+
   )
 
 )
 
 page_two <- tabPanel(
-  
+
   titlePanel("Correlation of Features"),
-  
+
   sidebarLayout(
     sidebarPanel(
       selectInput(
@@ -119,43 +121,46 @@ page_two <- tabPanel(
         been linked. After all, some of the features go very well together, and
         would make sense to rise and fall together. For example, danceability
         and energy would logically be linked, given dancing is an energetic
-        activity. If you want to explore a little more, we've included the ability 
-        to look at each individual year, in which case the points are color coded 
-        by month instead of year. You can hit the play button as well to view an
-        animated trends chart, which is pretty neat.")
+        activity. If you want to explore a little more, we've included the
+        ability to look at each individual year, in which case the points are
+        color coded by month instead of year. You can hit the play button as
+        well to view an animated trends chart, which is pretty neat.")
     ),
-    
+
     mainPanel(
       plotOutput(outputId = "scatter")
     )
   )
-  
+
 )
 
 page_artist <- tabPanel(
-  
+
   titlePanel("Comparing to Speechiness"),
   sidebarLayout(
     sidebarPanel(
-      
-      radioButtons("chooseComparison", "Choose what to compare speechiness to based on the top songs in 2018:",
-                   choices = list("Danceability" = "danceability", 
-                                  "Acousticness" = "acousticness", 
+
+      radioButtons("choose_comparison", "Choose what to compare speechiness
+                   to based on the top songs in 2018:",
+                   choices = list("Danceability" = "danceability",
+                                  "Acousticness" = "acousticness",
                                   "Duration" = "duration_ms",
                                   "Energy" = "energy",
                                   "Tempo" = "tempo")),
-      
-      selectInput("chooseShape", "Choose the shape of the data points:",
-                  choices = list("Square" = "15", "Circle" = "16", "Triangle" = "17")),
-      p("This scatterplot visualizes how different attributes compare to speechiness
-       in the top songs of 2018. Unlike the previous example, we wanted to expand on trends,
-       using a dataset that holds the top 100 songs of 2018. We wanted to look at how 
-       songs were related to speechiness specifically to see if we saw a 
-       correlation between them, as well as two new factors. This can hopefully help us
-       see if the trend has had any bearing on the music we heard last
-       year. By clicking on the different options, try to see if 
-       you see any patterns between the two variables. And, just for fun, feel
-       free to change the shape of the points on the plot."),
+
+      selectInput("choose_shape", "Choose the shape of the data points:",
+                  choices = list("Square" = "15", "Circle" = "16",
+                                 "Triangle" = "17")),
+      p("This scatterplot visualizes how different attributes compare to
+       speechiness in the top songs of 2018. Unlike the previous example, we
+       wanted to expand on trends, using a dataset that holds the top 100 songs
+       of 2018. We wanted to look at how songs were related to speechiness
+       specifically to see if we saw a correlation between them, as well as two
+       new factors. This can hopefully help us see if the trend has had any
+       bearing on the music we heard last year. By clicking on the different
+       options, try to see if you see any patterns between the two variables.
+       And, just for fun, feel free to change the shape of the points on the
+       plot."),
       p("Danceability - How suitable the song is for dance"),
       p("Energy - The measure of intensity and musical activity"),
       p("Acousticness - The confidence that a track is acoustic"),
@@ -163,7 +168,7 @@ page_artist <- tabPanel(
       p("Duration - The length of the song"),
       p("Tempo - The rhythm or beat measured of each song")
     ),
-    
+
     mainPanel(
       plotOutput("scatter_plot")
     )
@@ -195,8 +200,9 @@ page_songs <- tabPanel(
         songs of any year from 2000 to 2019. We wanted to visualize the trends
         of each feature on a more localized scale, and the best representation
         of that is that of the most popular songs in a given year. You can click
-        and choose which year, as well as which feature you would like to observe.
-        Feel free to compare the feature levels of the different songs.")
+        and choose which year, as well as which feature you would like to
+        observe. Feel free to compare the feature levels of the different
+        songs.")
     ),
     mainPanel(
       plotOutput("bar_plot")
@@ -206,7 +212,7 @@ page_songs <- tabPanel(
 
 conclusions <- tabPanel(
   titlePanel("Final Thoughts"),
-  
+
   mainPanel(
     tags$div(class = "conclusions",
              h1("Some Final Thoughts"),
@@ -216,29 +222,48 @@ conclusions <- tabPanel(
                visualizations: "),
              p("1.  There are many data points hovered around the lower end of
                the spectrum of speechiness, meaning many songs on the top 2018
-               dataset, contain higher values of other characteristics rather than
-               speechiness. In addition to this, we see that many songs contain
-               lower values of acousticness and higher values of danceability.
-               This shows that listeners are becoming less focused on the
-               prominence of spoken word but rather the other qualities that
-               make up a song."),
+               dataset, contain higher values of other characteristics rather
+               than speechiness. In addition to this, we see that many songs
+               contain lower values of acousticness and higher values of
+               danceability. This shows that listeners are becoming less focused
+               on the prominence of spoken word but rather the other qualities
+               that make up a song."),
              p("2. Looking at the top trends in the past 20 years, danceability
                has been on the climb since 2015 with a rapid increase.  However,
-               the energy of the top songs has recently been decreasing steadily.
-               This shows that energy and danceability of a song are not
-               necessarily correlated, and are not telling of what will be popular
-               based on one of these attributes. Despite some connections being
-               made based on the data, there simply isn't enough concrete
-               evidence that there exists a strong correlation."),
+               the energy of the top songs has recently been decreasing
+               steadily. This shows that energy and danceability of a song are
+               not necessarily correlated, and are not telling of what will be
+               popular based on one of these attributes. Despite some
+               connections being made based on the data, there simply isn't
+               enough concrete evidence that there exists a strong
+               correlation."),
              p("3. Arguably the least commonly fluctuating of song features,
                acousticness has not had a trend of increasing or decreasing over
                the past 20 years, but rather has been steady at a lower point.
                There are short spans of years where it spikes or drops in small
                amounts, but this non-erratic pattern is an indication that while
-               acousticness is a trend that can help popular songs, it is less of
-               an important factor. The trends in most modern popular music have steered
-               away from a focus on acoustic songs, aiming for different types of
-               music that have recently been pioneered."))
+               acousticness is a trend that can help popular songs, it is less
+               of an important factor. The trends in most modern popular music
+               have steered away from a focus on acoustic songs, aiming for
+               different types of music that have recently been pioneered."),
+             p("4. One conclusion that we came to with the bar chart is the
+               fact that the top songs from every year rank relatively high in
+               danceability, consistently across each year. This helped us
+               identify the importance of danceability that produces the most
+               popular songs. Going forward, we expect that this popular music
+               remains very strong in this feature, especially given the
+               recent spike in danceability as seen in our first trend analysis.
+               "),
+             h1("In Conclusion"),
+             p("The future for music is bright (and danceable, apparently).
+               Observing these trends for the world's most popular music is
+               somewhat eye-opening, as it reveals several of the potential
+               misconceptions that we may have had. It makes us think that,
+               despite the notion that music is rapidly changing, perhaps
+               at its core music has always really been the same. We'll be
+               interested in watching as the music industry continues to
+               grow, and to see if the trends we observed will continue
+               to hold up."))
   )
 )
 

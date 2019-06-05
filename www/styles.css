@@ -60,8 +60,8 @@ h2 {
 
 .about, .conclusions {
     color: rgb(122, 214, 122);
-    width: 50%;
-    margin-left: 50%;
+    width: 120%;
+    margin-left: 17.5%;
     font-family: "Mandali", sans-serif;
     align-content: center;
     text-align: center;
@@ -73,5 +73,9 @@ h2 {
 }
 
 .tab-content {
-    margin-top: 5%;
+    padding: 5%;
+}
+
+body > .container-fluid {
+    margin-bottom: 5%;
 }

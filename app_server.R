@@ -20,11 +20,11 @@ songs <- songs %>%
             Danceability = mean(danceability),
             Acousticness = mean(acousticness))
 
-weighted_songs <- weighted_songs %>% 
+weighted_songs <- weighted_songs %>%
   mutate(Speechiness = speechiness,
          Energy = energy,
          Danceability = danceability,
-         Acousticness = acousticness) %>% 
+         Acousticness = acousticness) %>%
   select(year, Speechiness, Energy, Danceability, Acousticness, month)
 
 build_bar <- function(data, time, feature) {
@@ -33,25 +33,28 @@ build_bar <- function(data, time, feature) {
   filter(year == as.numeric(time))
 
   ggplot(data = data) +
-    geom_bar(mapping = aes(x = data$song, y = data[[feature]]), fill = "#1ed760",
+    geom_bar(mapping = aes(x = data$song, y = data[[feature]]),
+             fill = "#1ed760",
              stat = "identity") +
-    labs(title = paste0(feature, " of Songs From ", time), y = feature, x = "Songs") +
+    labs(title = paste0(feature, " of Songs From ", time), y = feature,
+         x = "Songs") +
     theme(axis.text.x = element_text(angle = -70, hjust = 0))
 }
 
 server <- function(input, output) {
   output$trends_plot <- renderPlot({
     if (input$trend == "all") {
-      
+
       avg_stats_per_year <- reshape2::melt(songs, id.var = "year")
-      
+
       ggplot(data = avg_stats_per_year) +
         geom_line(mapping = aes(x = year, y = value, col = variable)) +
         labs(
           x = "Year",
           y = "Trend Value",
           title = "Trends of Popular Song Features from 2000 to 2019"
-        )
+        ) +
+        scale_y_continuous(limits = c(0, 1))
     } else {
       ggplot(data = songs) +
         geom_line(mapping = aes(x = year, y = songs[[input$trend]])) +
@@ -76,12 +79,13 @@ server <- function(input, output) {
           y = input$second,
           title = paste0("Comparing ", input$first, " to ", input$second,
                          " for the Past 20 Years")
-        )
+        ) +
+        scale_y_continuous(limits = c(0, 1))
     } else {
-      
-      year_data <- weighted_songs %>% 
+
+      year_data <- weighted_songs %>%
         filter(year == input$year)
-      
+
       ggplot(data = year_data) +
         geom_point(year_data,
                    mapping = aes(x = year_data[[input$first]],
@@ -94,14 +98,17 @@ server <- function(input, output) {
           y = input$second,
           title = paste0("Comparing ", input$first, " to ", input$second,
                          " in ", input$year)
-        )
+        ) +
+        scale_y_continuous(limits = c(0, 1))
     }
   })
   output$scatter_plot <- renderPlot({
-    ggplot(data = top_2018) + geom_point(aes_string(x = "speechiness", y = input$chooseComparison), shape = strtoi(input$chooseShape)) + 
-      ggtitle(paste("Speechiness vs.", input$chooseComparison))
+    ggplot(data = top_2018) + geom_point(aes_string(x = "speechiness",
+                                                  y = input$choose_comparison),
+                                         shape = strtoi(input$choose_shape)) +
+      ggtitle(paste("Speechiness vs.", input$choose_comparison))
   })
-  
+
   output$bar_plot <- renderPlot({
     return(build_bar(complete_songs, input$time, input$feature))
   })
