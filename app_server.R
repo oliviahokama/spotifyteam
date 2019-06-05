@@ -31,7 +31,6 @@ build_bar <- function(data, time, feature) {
   data <- data %>%
   group_by(year) %>%
   filter(year == as.numeric(time))
-  print(as.numeric(time))
 
   ggplot(data = data) +
     geom_bar(mapping = aes(x = data$song, y = data[[feature]]), fill = "#1ed760",

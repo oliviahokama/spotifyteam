@@ -195,7 +195,8 @@ page_songs <- tabPanel(
         songs of any year from 2000 to 2019. We wanted to visualize the trends
         of each feature on a more localized scale, and the best representation
         of that is that of the most popular songs in a given year. You can click
-        and choose which year, as well as which feature you would like to observe.")
+        and choose which year, as well as which feature you would like to observe.
+        Feel free to compare the feature levels of the different songs.")
     ),
     mainPanel(
       plotOutput("bar_plot")
