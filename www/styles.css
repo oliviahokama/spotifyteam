@@ -58,7 +58,7 @@ h2 {
     border-radius: 2em;
 }
 
-.about {
+.about, .conclusions {
     color: rgb(122, 214, 122);
     width: 50%;
     margin-left: 50%;

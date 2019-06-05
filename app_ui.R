@@ -170,6 +170,7 @@ page_artist <- tabPanel(
   )
 )
 
+<<<<<<< HEAD
 page_songs <- tabPanel(
   titlePanel("Songs From Different Years"),
   sidebarLayout(
@@ -203,6 +204,44 @@ page_songs <- tabPanel(
     )
   )
 )
+=======
+conclusions <- tabPanel(
+  titlePanel("Final Thoughts"),
+  
+  mainPanel(
+    tags$div(class = "conclusions",
+             h1("Some Final Thoughts"),
+             p("With the use of different interactive data visualization,
+               our team researched various Spotify datasets and the Spotify API.
+               Here are the main takeaways we found through looking at our data
+               visualizations: "),
+             p("1.  There are many data points hovered around the lower end of
+               the spectrum of speechiness, meaning many songs on the top 2018
+               dataset, contain higher values of other characteristics rather than
+               speechiness. In addition to this, we see that many songs contain
+               lower values of acousticness and higher values of danceability.
+               This shows that listeners are becoming less focused on the
+               prominence of spoken word but rather the other qualities that
+               make up a song."),
+             p("2. Looking at the top trends in the past 20 years, danceability
+               has been on the climb since 2015 with a rapid increase.  However,
+               the energy of the top songs has recently been decreasing steadily.
+               This shows that energy and danceability of a song are not
+               necessarily correlated, and are not telling of what will be popular
+               based on one of these attributes. Despite some connections being
+               made based on the data, there simply isn't enough concrete
+               evidence that there exists a strong correlation."),
+             p("3. Arguably the least commonly fluctuating of song features,
+               acousticness has not had a trend of increasing or decreasing over
+               the past 20 years, but rather has been steady at a lower point.
+               There are short spans of years where it spikes or drops in small
+               amounts, but this non-erratic pattern is an indication that while
+               acousticness is a trend that can help popular songs, it is less of
+               an important factor. The trends in most modern popular music have steered
+               away from a focus on acoustic songs, aiming for different types of
+               music that have recently been pioneered."))
+  )
+)
 
 ui <- navbarPage(
   theme = "styles.css",
@@ -211,5 +250,6 @@ ui <- navbarPage(
   page_one,
   page_two,
   page_artist,
-  page_songs
+  page_songs,
+  conclusions
 )
