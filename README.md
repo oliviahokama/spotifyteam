@@ -46,4 +46,4 @@ While this may be a bit less useful at first glance, as we cannot see how popula
 the time, it does allow for us to possibly see if there is any sort of relationship between its status
 as a "top 500 album of all time" and its popularity at the time of its relases (which we can find using other datasets). 
 
-A link to our final project: https://atchan24.shinyapps.io/spotifyteam/
+A link to our final project is [here](https://atchan24.shinyapps.io/spotifyteam/)
