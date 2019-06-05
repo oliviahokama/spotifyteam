@@ -170,7 +170,6 @@ page_artist <- tabPanel(
   )
 )
 
-<<<<<<< HEAD
 page_songs <- tabPanel(
   titlePanel("Songs From Different Years"),
   sidebarLayout(
@@ -204,7 +203,7 @@ page_songs <- tabPanel(
     )
   )
 )
-=======
+
 conclusions <- tabPanel(
   titlePanel("Final Thoughts"),
   
