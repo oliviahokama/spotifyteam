@@ -153,7 +153,7 @@ page_artist <- tabPanel(
        songs were related to speechiness specifically to see if we saw a 
        correlation between them, as well as two new factors. This can hopefully help us
        see if the trend has had any bearing on the music we heard last
-       year. By clicking on the differnt options, try to see if 
+       year. By clicking on the different options, try to see if 
        you see any patterns between the two variables. And, just for fun, feel
        free to change the shape of the points on the plot."),
       p("Danceability - How suitable the song is for dance"),
@@ -170,6 +170,38 @@ page_artist <- tabPanel(
   )
 )
 
+page_songs <- tabPanel(
+  titlePanel("Songs From Different Years"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "time",
+        label = "Year",
+        choices = c(2000:2019),
+        selected = 2000
+      ),
+      selectInput(
+        inputId = "feature",
+        label = "Feature",
+        choices = list(
+          "Danceability" = "danceability",
+          "Energy" = "energy",
+          "Acousticness" = "acousticness",
+          "Speechiness" = "speechiness"
+          ),
+        selected = "Danceability"
+      ),
+      p("This barplot visualizes the level of a certain feature for the Top 10
+        songs of any year from 2000 to 2019. We wanted to visualize the trends
+        of each feature on a more localized scale, and the best representation
+        of that is that of the most popular songs in a given year. You can click
+        and choose which year, as well as which feature you would like to observe.")
+    ),
+    mainPanel(
+      plotOutput("bar_plot")
+    )
+  )
+)
 
 ui <- navbarPage(
   theme = "styles.css",
@@ -177,5 +209,6 @@ ui <- navbarPage(
   page_about,
   page_one,
   page_two,
-  page_artist
+  page_artist,
+  page_songs
 )

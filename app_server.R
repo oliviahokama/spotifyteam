@@ -7,6 +7,11 @@ library("dplyr")
 songs <- read.csv("data/song_data.csv", stringsAsFactors = F)
 weighted_songs <- read.csv("data/weighted_song_data.csv", stringsAsFactors = F)
 top_2018 <- read.csv("data/top2018.csv", stringsAsFactors = F)
+complete_songs <- songs
+
+complete_songs <- complete_songs %>%
+  group_by(year) %>%
+  top_n(10, X)
 
 songs <- songs %>%
   group_by(year) %>%
@@ -21,6 +26,19 @@ weighted_songs <- weighted_songs %>%
          Danceability = danceability,
          Acousticness = acousticness) %>% 
   select(year, Speechiness, Energy, Danceability, Acousticness, month)
+
+build_bar <- function(data, time, feature) {
+  data <- data %>%
+  group_by(year) %>%
+  filter(year == as.numeric(time))
+  print(as.numeric(time))
+
+  ggplot(data = data) +
+    geom_bar(mapping = aes(x = data$song, y = data[[feature]]), fill = "#1ed760",
+             stat = "identity") +
+    labs(title = paste0(feature, " of Songs From ", time), y = feature, x = "Songs") +
+    theme(axis.text.x = element_text(angle = -70, hjust = 0))
+}
 
 server <- function(input, output) {
   output$trends_plot <- renderPlot({
@@ -83,5 +101,9 @@ server <- function(input, output) {
   output$scatter_plot <- renderPlot({
     ggplot(data = top_2018) + geom_point(aes_string(x = "speechiness", y = input$chooseComparison), shape = strtoi(input$chooseShape)) + 
       ggtitle(paste("Speechiness vs.", input$chooseComparison))
+  })
+  
+  output$bar_plot <- renderPlot({
+    return(build_bar(complete_songs, input$time, input$feature))
   })
 }
