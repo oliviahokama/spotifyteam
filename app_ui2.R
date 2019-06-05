@@ -2,25 +2,45 @@
 library(shiny)
 library(lintr)
 library(plotly)
-source("build_scatter2.R")
 
-page_three <- tabPanel(
-  titlePanel("Statistics for Top 10 artists in 2018"),
+# page_three <- tabPanel(
+#   titlePanel("Statistics for artists in 2018"),
+#   sidebarLayout(
+#     sidebarPanel(
+#       textInput("search", label = "Enter Artist", value = ""),
+#       br()
+#     ),
+#     mainPanel(
+#       plotlyOutput("scatter")))
+# )
+# 
+# ui <- navbarPage(
+#   "Artist comparisons in 2018",
+#   page_three
+# )
+
+
+page_artist <- tabPanel(
+  
+  titlePanel("Artist Information"),
   sidebarLayout(
     sidebarPanel(
-      textInput("search", label = "Enter Artist", value = ""),
-      br(),
-      sliderInput("oof", label = "Danceability",
-                  min = round(top_2018$danceability[0.0]),
-                  max = round(top_2018$danceability[1]),
-                  value = top_2018$danceability
-      )
+      
+      radioButtons("chooseComparison", "Choose what information you would like to see:",
+                   choices = list("Danceability" = "danceability", "Acousticness" = "acousticness", "Duration" = "duration_ms")),
+      
+      selectInput("chooseShape", "Choose the shape of the data points:",
+                  choices = list("Square" = "15", "Circle" = "16", "Triangle" = "17")) 
     ),
+    
     mainPanel(
-      plotlyOutput("scatter")))
+      plotOutput("scatter")
+    )
+  )
 )
 
 ui <- navbarPage(
-  "Song Trends in the Past 20 Years",
-  page_three
+  "Artists in 2018",
+  page_artist
 )
+

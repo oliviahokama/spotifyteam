@@ -8,13 +8,8 @@ top_2018 <- read.csv("data/top2018.csv", stringsAsFactors = F)
 
 scatter_plot <- function(data,
                          search = "",
-                         min,
-                         max,
                          xvar = "danceability",
                          yvar = "duration_ms") {
-  xmax <- max(data[, xvar])
-  ymax <- max(data[, yvar])
-  
   data <- data %>%
     filter(
       grepl(toupper(search), data$top_2018),
