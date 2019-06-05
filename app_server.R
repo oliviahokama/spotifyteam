@@ -6,6 +6,7 @@ library("dplyr")
 
 songs <- read.csv("data/song_data.csv", stringsAsFactors = F)
 weighted_songs <- read.csv("data/weighted_song_data.csv", stringsAsFactors = F)
+top_2018 <- read.csv("data/top2018.csv", stringsAsFactors = F)
 
 songs <- songs %>%
   group_by(year) %>%
@@ -78,5 +79,9 @@ server <- function(input, output) {
                          " in ", input$year)
         )
     }
+  })
+  output$scatter_plot <- renderPlot({
+    ggplot(data = top_2018) + geom_point(aes_string(x = "speechiness", y = input$chooseComparison), shape = strtoi(input$chooseShape)) + 
+      ggtitle(paste("Speechiness vs.", input$chooseComparison))
   })
 }
