@@ -1,0 +1,13 @@
+name: spotifyteam
+title: spotifyteam
+username:
+account: atchan24
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 967338
+bundleId: 2133182
+url: https://atchan24.shinyapps.io/spotifyteam/
+when: 1559753212.20639
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|app_server2.R|app_ui2.R|index.html|index.Rmd|README.md|spotify_analysis.R|spotify_findings.Rmd|scatter examples/build_scatter.R|scatter examples/server.R|scatter examples/ui.R
